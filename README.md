@@ -20,7 +20,8 @@ model to predict the results of a cervical cancer diagnostic test.
 
 [_Analysis of Global Food Shortages and Needs_](https://github.com/alyssa-rose/Final-Project-Backup)
 ````
-
+The project aims to predict global food needs by region and food type for a given year using k-means clustering, interpolation and extrapolation. The data was taken from Kaggle and processed via MATLAB. The program includes a GUI to allow the user to choose the 
+region, food type, and year range in order to determine the amount of food (in tons) needed to meet basic needs.
 ````
 ### Work Projects
 
