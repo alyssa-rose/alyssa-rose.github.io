@@ -28,12 +28,11 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 ### School Projects
 
 [_A Predictive Classification Model of Cervical Cancer Diagnoses_](https://github.com/alyssa-rose/Cervical-Cancer-Analysis)
-
+  - [The paper](https://drive.google.com/file/d/1pVQnFLAQtbFUBalW_boQqgovmGz-N-N1/view?usp=sharing)
 ````
-[The paper](https://drive.google.com/file/d/1pVQnFLAQtbFUBalW_boQqgovmGz-N-N1/view?usp=sharing) was concerned
-with using classification methods (Artificial Neural Networks and Support Vector Machines) and data
-compression methods (Singular Value Decomposition) to build a predictive classification model to predict the
-results of a cervical cancer diagnostic test.
+The project was concerned with using classification methods (Artificial Neural Networks and Support Vector
+Machines) and data compression methods (Singular Value Decomposition) to build a predictive classification 
+model to predict the results of a cervical cancer diagnostic test.
 ````
 ### Work Projects
 
