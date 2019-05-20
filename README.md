@@ -6,24 +6,7 @@ Head over to [my LinkedIn page](https://www.linkedin.com/in/alyssa-rose) to conn
 
 ### Personal Projects
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### School Projects
 
@@ -33,6 +16,11 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 The project was concerned with using classification methods (Artificial Neural Networks and Support Vector
 Machines) and data compression methods (Singular Value Decomposition) to build a predictive classification 
 model to predict the results of a cervical cancer diagnostic test.
+````
+
+[_Analysis of Global Food Shortages and Needs_](https://github.com/alyssa-rose/Final-Project-Backup)
+````
+
 ````
 ### Work Projects
 
