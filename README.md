@@ -79,9 +79,9 @@ Skills: MATLAB, data preprocessing, Machine Learning, group work
 ### Work Projects
 
 _Dense Urban Environment Team (DUET) Human Services Final Report_
-  -CLASSIFICATION: UNCLASSIFIED
-  -COLLABORATION: United States Department of Defense, United States Army Futures Command, MORS
-  -Paper : Unpublished currently, cannot share with outside sources
+ * _CLASSIFICATION: UNCLASSIFIED_
+ * _COLLABORATION: United States Department of Defense, United States Army Futures Command, MORS_
+ * _Paper : Unpublished currently, cannot share with outside sources_
 ````
 A paper done in collaboration with Natalie Wenigmann (Tel Aviv University) and Tom Carpino
 (Columbia University, Mailman School of Public Health) to build human service models for topics
