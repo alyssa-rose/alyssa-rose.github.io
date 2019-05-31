@@ -1,7 +1,7 @@
 ## Welcome to Alyssa Rose's Portfolio
 
 A collection of the projects that I've led and worked on through self-made, work and academic opportunities.
-[Appreciation of my work aknowledged by Michael R. Pompeo, Secretary of State](https://drive.google.com/file/d/0B2FESdCOYjVrekdDdHVCU1hWVUxNYVZra3diSmNsWEFobEhv/view?usp=sharing)
+*[Appreciation of my work acknowledged by Michael R. Pompeo, Secretary of State](https://drive.google.com/file/d/0B2FESdCOYjVrekdDdHVCU1hWVUxNYVZra3diSmNsWEFobEhv/view?usp=sharing)
 
 Head over to [my LinkedIn page](https://www.linkedin.com/in/alyssa-rose) to connect!
 
