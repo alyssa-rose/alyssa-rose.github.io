@@ -47,7 +47,8 @@ up to the community to write these grants, an issue if the community does not ha
 own set of civil engineers to address such problems (which is especially true in poverty
 stricken areas). Using web scraping techniques and data from Data.gov, I analyzed the poorest
 communities and cross referenced them with those that have the worst infrastructure to determine
-where outside help from grant writing companies or civil engineers would be most needed.
+where outside help from grant writing companies or civil engineers would be most needed, such
+that grants could be written and submitted to the INFRA grant program.
 
 Skills: Python, Web scraping, data preprocessing, Tableau, data analysis
 ````
