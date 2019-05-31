@@ -16,18 +16,21 @@ Clicking on the titles will take you to the respective GitHub Repositories
 ### Machine Learning Templates in R
 [_Machine Learning Implementation in R_](https://github.com/alyssa-rose/Machine-Learning-R)
 ````
-Implementation of Machine Learning topics such as Support Vector Machines, Artificial Neural Networks,
+Implementation of ML topics such as Support Vector Machines,Artificial Neural Networks,
 Convolutional Neural Networks, Apriori learning, Decision Tree Regression and Classification,
-Random Forest Regression and Classification, Hierarchial Clustering, Eclat Learning, Naive Bayes,
-Logistic Regression, Principal Component Analysis, Thompson Sampling and Natural Language Processing. 
+Random Forest Regression and Classification, Hierarchial Clustering, Eclat Learning, 
+Naive Bayes, Logistic Regression, Principal Component Analysis, Thompson Sampling and 
+Natural Language Processing. 
 
 Data analyzed with the models include image analysis to distinguish between cats and dogs, wine
 analysis, and bank churn modelling.
 
 Skills: R, Machine Learning, data analysis
 ````
+
 ### Machine Learning Templates in Python
 [_Machine Learning Implementation in Python_](https://github.com/alyssa-rose/Machine-Learning-Python)
+
 ````
 Same templates as above, but in Python!
 
@@ -37,8 +40,9 @@ Skills: Python, Machine Learning, data analysis
 ### Personal Projects
 
 [_Determination of Counties Most in Need of Federal Grants for Infrastructure Projects_](https://github.com/alyssa-rose/Grant-Funding-)
-  - [The paper](https://drive.google.com/file/d/1aZ3uGdiP0iX4fjXO-qjjTwy-4VHwOfaf/view?usp=sharing)
-  - [Tableau notebook: Poverty Analysis by County](https://us-east-1.online.tableau.com/#/site/alyssarose/home)
+  * [The paper](https://drive.google.com/file/d/1aZ3uGdiP0iX4fjXO-qjjTwy-4VHwOfaf/view?usp=sharing)
+  * [Tableau notebook: Poverty Analysis by County](https://us-east-1.online.tableau.com/#/site/alyssarose/home)
+  
 ````
 The project was built and designed by me after a question posed by my sister (a civil engineer) 
 "Why don't more communities with poor infrastructure know about federal grants available for
@@ -57,7 +61,7 @@ Skills: Python, Web scraping, data preprocessing, Tableau, data analysis
 ### School Projects
 
 [_A Predictive Classification Model of Cervical Cancer Diagnoses_](https://github.com/alyssa-rose/Cervical-Cancer-Analysis)
-  - [The paper](https://drive.google.com/file/d/1pVQnFLAQtbFUBalW_boQqgovmGz-N-N1/view?usp=sharing)
+  * [The paper](https://drive.google.com/file/d/1pVQnFLAQtbFUBalW_boQqgovmGz-N-N1/view?usp=sharing)
   
 ````
 The project was concerned with using classification methods (Artificial Neural Networks and 
@@ -91,6 +95,6 @@ such as health, food security, and water systems in the AFRICOM, EUCOM AND INDOP
 The paper will be available on the Military Operations Research Society's (MORS) website 
 in the near future
 ````
-````
+
 
 
