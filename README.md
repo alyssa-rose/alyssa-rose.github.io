@@ -87,6 +87,7 @@ _Dense Urban Environment Team (DUET) Human Services Final Report_
  * _CLASSIFICATION: UNCLASSIFIED_
  * _COLLABORATION: United States Department of Defense, United States Army Futures Command, MORS_
  * _Paper : Unpublished currently, cannot share with outside sources_
+ 
 ````
 A paper done in collaboration with Natalie Wenigmann (Tel Aviv University) and Tom Carpino
 (Columbia University, Mailman School of Public Health) to build human service models for topics
