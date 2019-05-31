@@ -1,6 +1,7 @@
 ## Welcome to Alyssa Rose's Portfolio
 
-A collection of the projects that I've led and worked on through self-made, work and academic opportunities
+A collection of the projects that I've led and worked on through self-made, work and academic opportunities.
+[Appreciation of my work aknowledged by Michael R. Pompeo, Secretary of State](https://drive.google.com/file/d/0B2FESdCOYjVrekdDdHVCU1hWVUxNYVZra3diSmNsWEFobEhv/view?usp=sharing)
 
 Head over to [my LinkedIn page](https://www.linkedin.com/in/alyssa-rose) to connect!
 
@@ -92,6 +93,7 @@ _Dense Urban Environment Team (DUET) Human Services Final Report_
 A paper done in collaboration with Natalie Wenigmann (Tel Aviv University) and Tom Carpino
 (Columbia University, Mailman School of Public Health) to build human service models for topics
 such as health, food security, and water systems in the AFRICOM, EUCOM AND INDOPACOM regions
+via the Virtual Student Federal Service Program
 
 The paper will be available on the Military Operations Research Society's (MORS) website 
 in the near future
