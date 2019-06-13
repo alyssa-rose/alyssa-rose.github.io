@@ -90,16 +90,16 @@ body{
 
 #portrait {
   height: auto;
-  width: 70%;
+  width: 100%;
   overflow: hidden;
-  margin: 0 auto;
+  margin: auto;
   border-radius: 50%;
   background: #FFFFFF;
 }
 
 #portrait img {
     height: auto;
-    width: 130%;
+    width: 100%;
 }
 
 .button {
