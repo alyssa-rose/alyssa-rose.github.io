@@ -130,3 +130,29 @@ body{
 .about-section p {
   margin-bottom: 5rem;
 }
+
+/* TEXT */
+#sidebar p.name {
+  height: auto;
+  width: auto;
+  margin: 0;
+  font-family: poppinsbold;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #FF5DC4;
+}
+
+#sidebar p.title {
+  height: auto;
+  width: auto;
+  margin: 0;
+  font-family: poppinslight;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #F9F9F9;
+}
+    
+    
+    
+    
+    
