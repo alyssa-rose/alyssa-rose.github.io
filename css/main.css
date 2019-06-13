@@ -100,8 +100,27 @@ body{
 #portrait img {
     height: auto;
     width: 130%;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.button {
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 5px;
+  -o-transition: all 0.3s linear 0s; 
+  -moz-transition: all 0.3s linear 0s; 
+  -ms-transition: all 0.3s linear 0s; 
+  -webkit-transition: all 0.3s linear 0s; 
+  transition: all 0.3s linear 0s;
+  background: #fd005f;
+}
+
+.button:hover {
+  background: #fc5191;
 }
