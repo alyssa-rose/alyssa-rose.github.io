@@ -114,11 +114,11 @@ body{
   -ms-transition: all 0.3s linear 0s; 
   -webkit-transition: all 0.3s linear 0s; 
   transition: all 0.3s linear 0s;
-  background: #fd005f;
+  background: #C9ABD2;
 }
 
 .button:hover {
-  background: #fc5191;
+  background: #D096E1;
 }
 .about-section {
   padding-top: 10rem;
