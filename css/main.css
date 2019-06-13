@@ -91,9 +91,9 @@ body{
 
 #portrait {
   height: auto;
-  width: auto;
+  width: 50%;
   overflow: hidden;
-  margin: auto;
+  margin: 0 auto;
   border-radius: 50%;
   background: #FFFFFF;
 }
