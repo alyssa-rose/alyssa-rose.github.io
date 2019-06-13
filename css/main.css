@@ -132,8 +132,40 @@ body{
   line-height: 1.5em;
   color: #F9F9F9;
 }
+
+.left h2 {
+  font-family: Helvicta;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.left p {
+  font-family: poppinsregular;
+  padding: 0 10px;
+  font-size: 1em;
+}
+
     
 /* GRID */
+.left, .right {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  overflow: auto;
+  background: none;
+}
+
+.right {
+  left: 50%;
+  overflow: hidden;
+}
+
+.right img {
+  height: auto;
+  width: 120%;
+}
+
 #item1, #item2, #item3, #item4, #item5, #item6, #item7, #item8, #item9 {
   overflow: hidden;
   z-index: 999;
