@@ -78,8 +78,7 @@ body{
 
 #portrait img {
     height: auto;
-    width: 120%;
-    padding-right: 45px;
+    width: 100%;
 }
 
 .button {
