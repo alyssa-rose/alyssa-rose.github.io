@@ -90,10 +90,10 @@ body{
 
 #portrait {
   height: auto;
-  width: 100%;
+  width: auto;
   overflow: hidden;
   margin: auto;
-  border-radius: 25%;
+  border-radius: 50%;
   background: #FFFFFF;
 }
 
@@ -123,8 +123,8 @@ body{
 }
 .about-section {
   padding-top: 10rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#7b9e9e), color-stop(75%, rgba(123, 170, 158, 0.9)), to(rgba(123, 145, 158, 0.7)));
+  background: linear-gradient(to bottom, #7b9e9e 0%, rgba(123, 170, 158, 0.9) 75%, rgba(123, 145, 158, 0.7) 100%);
 }
 
 .about-section p {
