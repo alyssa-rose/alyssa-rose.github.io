@@ -96,3 +96,8 @@ body{
   border-radius: 50%;
   background: #FFFFFF;
 }
+
+#portrait img {
+    height: auto;
+    width; 100%;
+}
