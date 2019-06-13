@@ -58,7 +58,7 @@
     font-style: normal;
 }
 
-
+/* Body */
 body{
   position:absolute;
   font-family: 'Open Sans', arial, sans-serif;
@@ -69,6 +69,7 @@ body{
 
 }
 
+/* SIDEBAR */
 #sidebar {
   position: fixed;
   top: 0;
@@ -139,7 +140,7 @@ body{
   font-family: poppinsbold;
   font-size: 1.5em;
   line-height: 1.5em;
-  color: #FF5DC4;
+  color: #6cb3dd;
 }
 
 #sidebar p.title {
