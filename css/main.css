@@ -104,6 +104,7 @@ body{
 
 .button {
   display: inline-block;
+  font-family = "poppinssemibold"
   height: auto;
   width: auto;
   padding: 5px 10px;
