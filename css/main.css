@@ -119,7 +119,7 @@ body{
   height: auto;
   width: auto;
   margin: 0;
-  font-family: 'poppinsregular';
+  font-family: 'Penultimate';
   font-weight: bold;
   font-size: 1.5em;
   line-height: 1.5em;
@@ -130,7 +130,7 @@ body{
   height: auto;
   width: auto;
   margin: 0;
-  font-family: 'poppinslight';
+  font-family: 'Penultimate';
   font-size: 1.5em;
   line-height: 1.5em;
   color: #F9F9F9;
@@ -143,7 +143,7 @@ body{
 }
 
 .left p {
-  font-family: 'poppinsregular';
+  font-family: 'Nunito';
   padding: 0 10px;
   font-size: 1em;
 }
