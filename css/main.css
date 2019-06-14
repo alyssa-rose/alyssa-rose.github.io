@@ -39,7 +39,7 @@
 /* Body */
 body{
   position:absolute;
-  font-family: 'Open Sans', arial, sans-serif;
+  font-family: 'Nunito';
   background:rgb(123, 158, 158);
   overflow-x: hidden;
   overflow-y: auto;
@@ -95,6 +95,7 @@ body{
   -webkit-transition: all 0.3s linear 0s; 
   transition: all 0.3s linear 0s;
   background: #C9ABD2;
+  color: white;
 }
 
 .button:hover {
@@ -116,7 +117,7 @@ body{
   height: auto;
   width: auto;
   margin: 0;
-  font-family: poppinsregular;
+  font-family: 'poppinsregular';
   font-weight: bold;
   font-size: 1.5em;
   line-height: 1.5em;
@@ -127,24 +128,26 @@ body{
   height: auto;
   width: auto;
   margin: 0;
-  font-family: poppinslight;
+  font-family: 'poppinslight';
   font-size: 1.5em;
   line-height: 1.5em;
   color: #F9F9F9;
 }
 
 .left h2 {
-  font-family: Helvicta;
+  font-family: 'Nunito';
   text-align: center;
   font-size: 1.2em;
 }
 
 .left p {
-  font-family: poppinsregular;
+  font-family: 'poppinsregular';
   padding: 0 10px;
   font-size: 1em;
 }
-
+.section {
+    font-family: 'Nunito';
+}
     
 /* GRID */
 .left, .right {
