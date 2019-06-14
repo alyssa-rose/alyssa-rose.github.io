@@ -82,9 +82,6 @@ body{
   margin-left: 10rem;
   margin-right: 10rem;
 }
-.row {
-    display: flex;
-}
         
         
 /* TEXT */
@@ -119,25 +116,6 @@ body{
   font-family: 'Nunito';
   padding: 0 10px;
   font-size: 1em;
-}
-.sections {
-    font-family: 'Nunito';
-    font-size: 18px;
-    text-align: center;
-}
-.left-block {
-    float:left;
-    background: black;
-    color: white;
-    font-family:'Nunito';
-    text-align: center;
-}
-.right-block {
-    float: right;
-    background: black;
-    color: white;
-    font-family:'Nunito';
-    text-align: center;
 }
         
 /* GRID */
@@ -300,5 +278,17 @@ body{
   background: rgba(255,255,255,0.6);
 }
 
+/* COLOR */
+.bg-grad1 {
+    background-color: #212a3b
+}
+
+.bg-grad2 {
+    background-color: rgb(48, 59, 81)
+}
+
+.bg-grad3 {
+    background-color: rgb(64, 78, 107)
+}
     
     
