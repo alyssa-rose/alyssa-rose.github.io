@@ -103,6 +103,8 @@ body{
 }
 .about-section {
   padding-top: 10rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#212a3b), color-stop(75%, rgba(123, 145, 158, 0.9)), to(rgba(123, 170, 158, 0.7)));
   background: linear-gradient(to bottom, #212a3b 0%, rgba(123, 145, 158, 0.9) 75%, rgba(123, 170, 158, 0.7) 100%);
   text-align: center;
