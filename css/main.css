@@ -69,7 +69,7 @@ body{
 
 #portrait {
   height: auto;
-  width: 50%;
+  width: 70%;
   overflow: hidden;
   margin: 0 auto;
   border-radius: 50%;
@@ -83,7 +83,7 @@ body{
 
 .button {
   display: inline-block;
-  font-family = "poppinssemibold"
+  font-family = 'poppinslight'"
   height: auto;
   width: auto;
   padding: 5px 10px;
@@ -103,8 +103,6 @@ body{
 }
 .about-section {
   padding-top: 10rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#212a3b), color-stop(75%, rgba(123, 145, 158, 0.9)), to(rgba(123, 170, 158, 0.7)));
   background: linear-gradient(to bottom, #212a3b 0%, rgba(123, 145, 158, 0.9) 75%, rgba(123, 170, 158, 0.7) 100%);
   text-align: center;
@@ -112,6 +110,8 @@ body{
 
 .about-section p {
   margin-bottom: 5rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 /* TEXT */
