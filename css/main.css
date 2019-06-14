@@ -36,6 +36,11 @@
     font-style: normal;
 }
 
+a {
+    text-decoration: none;
+    color: #C9ABD2;
+}
+
 /* Body */
 body{
   position:absolute;
@@ -137,7 +142,7 @@ body{
 }
 
 .left h2 {
-  font-family: 'Nunito';
+  font-family: 'Penultimate';
   text-align: center;
   font-size: 1.2em;
 }
