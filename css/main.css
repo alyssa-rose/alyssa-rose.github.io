@@ -98,7 +98,9 @@ body{
   margin-right: 10rem;
 }
         
-        
+.coursework-section{
+    padding-top:10rem;
+}
 /* TEXT */
 #sidebar p.name {
   height: auto;
