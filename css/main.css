@@ -99,6 +99,10 @@ body{
         
 .coursework-section{
     padding-top:10rem;
+    text-align:center;
+}
+.portfolio-section{
+    text-align:center;
 }
 /* TEXT */
 #sidebar p.name {
