@@ -4,7 +4,9 @@ a {
     text-decoration: none;
     color: #C9ABD2;
 }
-
+h2 {
+    color: white;
+}
 /* Body */
 body{
   position:absolute;
@@ -93,7 +95,7 @@ body{
   font-weight: bold;
   font-size: 2.5em;
   line-height: 3em;
-  color: #6cb3dd;
+  color: rgb(123, 158, 158);
 }
 
 #sidebar p.title {
