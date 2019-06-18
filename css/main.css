@@ -280,15 +280,19 @@ body{
 
 /* COLOR */
 .bg-grad1 {
-    background-color: #212a3b
+    background-color: #212a3b;
+    color: white;
 }
 
 .bg-grad2 {
-    background-color: rgb(48, 59, 81)
+    background-color: rgb(48, 59, 81);
+    color: white;
+        
 }
 
 .bg-grad3 {
-    background-color: rgb(64, 78, 107)
+    background-color: rgb(64, 78, 107);
+    color: white;
 }
     
     
