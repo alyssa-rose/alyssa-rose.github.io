@@ -16,6 +16,11 @@ h4 {
 p {
     color: white;
 }
+
+.portfolio-section p {
+    color: black;
+}
+
 li {
     float: center;
 }
