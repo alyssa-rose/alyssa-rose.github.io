@@ -25,7 +25,10 @@ li {
     float: center;
     color:white;
 }
-     
+
+.box {
+    padding: 0 5px 0 5px;
+}
 /* Body */
 body{
   position:absolute;
