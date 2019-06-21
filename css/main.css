@@ -37,6 +37,10 @@ body{
 
 }
 
+.container {
+    float:right;
+}
+
 /* SIDEBAR */
 #sidebar {
   position: fixed;
