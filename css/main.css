@@ -30,6 +30,12 @@ li {
     padding: 0 15px 0 15px;
 }
 
+.clr:after {
+    content: "";
+  display: block;
+  clear: both;
+}
+
 #sidebar__social-icons {
   display: block;
   height: auto;
