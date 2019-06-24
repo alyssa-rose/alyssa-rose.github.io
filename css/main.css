@@ -29,6 +29,40 @@ li {
 .box {
     padding: 0 15px 0 15px;
 }
+
+.social_icons {
+  display: block;
+  height: auto;
+  width: 60%;
+  margin: 10px auto;
+  background: none;
+}
+
+.social-icons-btn {
+      overflow: hidden;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin: 0 5px;
+  border-radius: 5px;
+  background: #484747;
+  -o-transition: all 0.3s linear 0s; 
+  -moz-transition: all 0.3s linear 0s; 
+  -ms-transition: all 0.3s linear 0s; 
+  -webkit-transition: all 0.3s linear 0s; 
+  transition: all 0.3s linear 0s;
+  cursor: pointer;
+}
+
+.social-icon-btn:hover {
+  background: #5f5f5f;
+}
+
+.social-icon-btn img {
+  height: 30px;
+  width: 30px;
+}
+    
 /* Body */
 body{
   position:absolute;
@@ -308,6 +342,108 @@ body{
 }
 
 
+/* Contact */
+#contact {
+  z-index: 997;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  display: block;
+  height: 0;
+  width: 100%;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 0 0 30%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #4a4a4a;
+  -o-transition: transform 0.6s linear 0s, height 0s linear 0.6s; 
+  -moz-transition: transform 0.6s linear 0s, height 0s linear 0.6s; 
+  -ms-transition: transform 0.6s linear 0s, height 0s linear 0.6s; 
+  -webkit-transition: transform 0.6s linear 0s, height 0s linear 0.6s; 
+  transition: transform 0.6s linear 0s, height 0s linear 0.6s;
+}
 
+#contact:target {
+  height: 100%;
+  overflow: auto;
+  -o-transition: transform 0.6s linear 0s, height 0s linear 0s; 
+  -moz-transition: transform 0.6s linear 0s, height 0s linear 0s; 
+  -ms-transition: transform 0.6s linear 0s, height 0s linear 0s; 
+  -webkit-transition: transform 0.6s linear 0s, height 0s linear 0s; 
+  transition: transform 0.6s linear 0s, height 0s linear 0s;
+  -o-transform: translateZ(0) translateX(100%);
+  -moz-transform: translateZ(0) translateX(100%);
+  -webkit-transform: translateZ(0) translateX(100%);
+  -ms-transform: translateZ(0) translateX(100%);
+  transform: translateZ(0) translateX(100%);
+}
+
+#contact form {
+  position: relative;
+  height: auto;
+  width: 80%;
+  margin: 0 auto;
+  background: none;
+  text-align: center;
+}
+
+#contact label {
+  display: inline-block;
+  width: 20%;
+  padding: 0 10px 0 0;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: middle;
+  text-align: right;
+}
+
+#contact input[type="text"] {
+  height: 30px;
+  width: 50%;
+  border: 0;
+  padding: 0 10px;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#contact input[type="submit"] {
+  border: 0;
+  margin: 15px 0 15px 20%;
+}
+
+#contact label[for="message"] {
+  height: 300px;
+  padding: 120px 10px 0 10px;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+#contact textarea {
+  height: 300px;
+  width: 50%;
+  padding: 5px 10px;
+  border: 0;
+  resize: none;
+  overflow-y: auto;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
     
     
