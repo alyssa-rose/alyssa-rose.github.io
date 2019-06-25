@@ -389,7 +389,7 @@ a {
   -ms-transform: skewY(-30deg) rotate(60deg);
   transform: skewY(-30deg) rotate(60deg);
   overflow: hidden;
-  background: none;
+  background: white;
 }
 
 #grid li:nth-child(3n+2) {
