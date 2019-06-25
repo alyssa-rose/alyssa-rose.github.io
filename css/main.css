@@ -26,13 +26,10 @@ li {
     color:white;
 }
 
-.box {
-    padding: 0 15px 0 15px;
-}
-
 .column-left{ float: left; width: 30%; }
 .column-right{ float: right; width: 30%; }
 .column-center{ display: inline-block; width: 30%; }
+
 .clr:after {
   content: "";
   display: block;
@@ -75,11 +72,12 @@ li {
 /* Body */
 body{
   position:absolute;
-  font-family: 'Nunito';
+  height: 100%;
+  width: 100%  
   background:rgb(123, 158, 158);
   overflow-x: hidden;
   overflow-y: auto;
-  font-size: 18;
+  font-size: 16px;
 
 }
 
@@ -105,7 +103,7 @@ body{
 
 #portrait {
   height: auto;
-  width: 50%;
+  width: 70%;
   overflow: hidden;
   margin: 0 auto;
   border-radius: 50%;
@@ -138,7 +136,7 @@ body{
   background: #D096E1;
 }
 .about-section {
-  padding-top: 10rem;
+  /*padding-top: 10rem;*/
   background: -webkit-gradient(linear, left top, left bottom, from(#212a3b), color-stop(75%, rgba(123, 145, 158, 0.9)), to(rgba(123, 158, 158, 1)));
   background: linear-gradient(to bottom, #212a3b 0%, rgba(123, 145, 158, 0.9) 75%, rgba(123, 158, 158, 1) 100%);
   text-align: center;
@@ -244,7 +242,7 @@ body{
 }    
 #grid {
   width: 70%;
-  margin: 25px 0 0 30%;
+  margin: 100px 0 0 30%;
   padding: 20px 2%;
   -o-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -286,7 +284,7 @@ body{
   -ms-transform: skewY(-30deg) rotate(60deg);
   transform: skewY(-30deg) rotate(60deg);
   overflow: hidden;
-  background: #FFFFFF;
+  background: none;
 }
 
 #grid li:nth-child(3n+2) {
@@ -456,3 +454,109 @@ body{
 }
     
     
+/* Media Queries */
+
+@media only screen and (max-width: 1100px) {
+  /* Layout */
+  #contact form {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  /* Layout */
+  #contact label {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  #contact input[type="text"] {
+    height: 30px;
+  }
+
+  #contact input[type="submit"] {
+    border: 0;
+    margin: 10px auto;
+  }
+
+  #contact label[for="message"] {
+    height: auto;
+    padding: 0;
+  }
+
+  #contact textarea {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* layout */
+  #sidebar {
+    z-index: 0;
+    position: relative;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #sidebar__portrait {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    margin: 0 0 0 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+    overflow: hidden;
+    background: #FFFFFF;
+  }
+
+  #sidebar__portrait img {
+    height: auto;
+    width: 100%;
+  }
+
+  #title {
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+
+  #title h1 {
+    margin: 10px 0;
+  }
+
+  #contact {
+    padding: 0;
+  }
+
+  .left, .right {
+    position: relative;
+    left: 0;
+    height: auto;
+    width: 100%;
+  }
+
+  .right img {
+    height: auto;
+    width: 100%;
+  }
+
+  /* Grid */
+  #grid {
+    margin: 0 auto;
+    width: 95%;
+  }
+}
+
+
+@media only screen and (max-width: 550px) {
+  /* Layout */
+  body {
+    font-size: 14px;
+  }
+
+  #contact input[type="text"], #contact textarea {
+    width: 80%;
+  }
