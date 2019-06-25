@@ -169,7 +169,7 @@ a {
   text-align: center;
 }
 
-#item1, #item2, #item3, #item4, #item5, #item6, #item7, #item8, #item9, #item10, #item11, #item12 {
+#item1, #item2, #item3, #item4, #item5, #item6, #item7, #item8, #item9, #item10, #item11, #item12, #item13, #item14, #item15 {
   overflow: hidden;
   z-index: 999;
   display: block;
@@ -187,7 +187,7 @@ a {
 }
 
 #item1:target, #item2:target, #item3:target, #item4:target, #item5:target, #item6:target, #item7:target, #item8:target, 
-#item9:target, #item10:target, #item11:target, #item12:target {
+#item9:target, #item10:target, #item11:target, #item12:target, #item13:target, #item14:target, #item15:target {
   height: 100%;
   overflow: auto;
   -o-transition: transform 0.6s linear 0s, height 0s linear 0s; 
