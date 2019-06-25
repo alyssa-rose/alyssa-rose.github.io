@@ -30,11 +30,11 @@ li {
     padding: 0 15px 0 15px;
 }
 
-.column-left{ float: left; width: 33.333%; }
-.column-right{ float: right; width: 33.333%; }
-.column-center{ display: inline-block; width: 33.333%; }
+.column-left{ float: left; width: 30%; }
+.column-right{ float: right; width: 30%; }
+.column-center{ display: inline-block; width: 30%; }
 .clr:after {
-    content: "";
+  content: "";
   display: block;
   clear: both;
 }
