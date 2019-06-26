@@ -336,11 +336,11 @@ a {
   -ms-transition: all 0.3s linear 0s; 
   -webkit-transition: all 0.3s linear 0s; 
   transition: all 0.3s linear 0s;
-  background: #fd005f;
+  background: #9c8dba;
 }
 
 .button:hover {
-  background: #fc5191;
+  background: #b3a9c9;
 }
 
 /* Hexagonal Grid */
@@ -475,7 +475,7 @@ label {
 #sidebar p.name {
   margin: 20px 0 0 0;
   font-family: poppinssemibold;
-  color: #0ea4fd;
+  color: #8bc1c1;
 }
 
 .left h2 {
