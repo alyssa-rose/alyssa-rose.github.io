@@ -305,6 +305,10 @@ a {
   box-sizing: border-box;
 }
 
+#about p {
+	text-color:#C9ABD2;
+}
+
 .left, .right {
   position: absolute;
   left: 0;
