@@ -418,8 +418,8 @@
 <div id="contact">
   <a href="#"><div class="button"><p>&lt;&lt; CLOSE</p></div></a>
   <form id="contactform" action=""https://formspree.io/alyssa.s.rose5@gmail.com" method="POST">
-    <label for="email">Your Email</label><input type="email" name = "_replyto" id="email"/>
-	<input type="text" name="_gotcha" style="display:none" />								      
+    <label for="email">Your Email</label><input type="email" name = "name" id="email"/>
+    <input type="text" name="_gotcha" style="display:none" />								      
     <br>
     <br>
     <label for="subject">Subject</label><input type="text" name = "name" id="subject"/>
@@ -428,6 +428,7 @@
     <label for="message">Message</label><textarea name = "message" id="message"></textarea>
     <br>
     <input type="submit" value="Send" class="button"/>
+    <input type="hidden" name="_next" value="https://alyssa-rose.github.io/" />
   </form>
 </div>
 
