@@ -418,15 +418,16 @@
 <div id="contact">
   <a href="#"><div class="button"><p>&lt;&lt; CLOSE</p></div></a>
   <form id="emailform" action=""https://formspree.io/alyssa.s.rose5@gmail.com" method="POST">
-    <label for="email">Your Email</label><input type="text" id="email"/>
+    <label for="email">Your Email</label><input type="email" name = "_replyto"/>
+	<input type="text" name="_gotcha" style="display:none" />								      
     <br>
     <br>
-    <label for="subject">Subject</label><input type="text" id="subject"/>
+    <label for="subject">Subject</label><input type="text" name = "name" id="subject"/>
     <br>
     <br>
     <label for="message">Message</label><textarea form="emailform" id="message"></textarea>
     <br>
-    <input type="submit" class="button" value="SEND EMAIL"/>
+    <input type="submit" class="button" value="Send"/>
   </form>
 </div>
 
