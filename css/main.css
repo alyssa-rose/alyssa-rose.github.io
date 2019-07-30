@@ -276,6 +276,18 @@ font-family:'Raleway' , sans-serif, Helvetica, Verdana;
   box-sizing: border-box;
 }
 
+#contact input[type="email"] {
+  height: 30px;
+  width: 50%;
+  border: 0;
+  padding: 0 10px;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 #contact input[type="submit"] {
   border: 0;
   margin: 15px 0 15px 20%;
@@ -529,6 +541,10 @@ label {
   #contact input[type="text"] {
     height: 30px;
   }
+	
+  #contact input[type="email"] {
+    height: 30px;
+  }
 
   #contact input[type="submit"] {
     border: 0;
@@ -612,6 +628,6 @@ label {
     font-size: 14px;
   }
 
-  #contact input[type="text"], #contact textarea {
+  #contact input[type="text"], #contact input[type="email"], #contact textarea {
     width: 80%;
   }
