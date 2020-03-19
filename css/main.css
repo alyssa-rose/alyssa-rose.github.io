@@ -85,7 +85,7 @@ section h1 {
   white-space: nowrap;
 }
 
-#section01 { background: url(https://picsum.photos/1200/800?image=575) center center / cover no-repeat;
+#section01 { background: url(/images/Waterfall.jpg) center center / cover no-repeat;
   width: 100%
 }
 
