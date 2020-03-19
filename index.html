@@ -170,13 +170,22 @@
             <div class="row justify-content-center">
                <div class="container-fluid" style="background:black">
                   <form method="POST" action="https://formspree.io/alyssa.s.rose5@gmail.com" id="contactform">
-                     <label for="email">Your Email</label><input type="email" name="email" id="email"/>								     
+                     <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" name="email" id="email"/>
+                     </div>
                      <br>
                      </br>
-                     <label for="subject">Subject</label><input type="text" name="_subject" id="subject"/>
+                     <div class="form-group">
+                      <label for="subject">Subject</label>
+                      <input type="text" name="_subject" id="subject"/>
+                    </div>
                      <br>
                      </br>
-                     <label for="message">Message</label><textarea name="message" id="message"></textarea>
+                     <div class="form-group">
+                       <label for="message">Message</label>
+                       <textarea name="message" id="message"></textarea>
+                     </div>
                      <br>
                      </br>
                      <input type="submit" value="Send" class="button"/>
