@@ -152,23 +152,16 @@ p {
   font-size:18px;
 }
 
-label {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  text-align: left;
-  width: 100px;
-  line-height: 26px;
-  margin-bottom: 10px;
+margin-bottom: 10px;
 }
-#email, #subject {
-  height: 30px;
-  flex: 0 0 200px;
-  margin-left: 10px;
-}
+form input, form select {
+     max-width: 70%;
+     display: inline-block;
+    }
+  form label {
+    width: 25%;
+  }
 
-#message {
-  height: 100px;
-  flex: 0 0 200px;
-  margin-left: 10px;
-}
+
+
+  
