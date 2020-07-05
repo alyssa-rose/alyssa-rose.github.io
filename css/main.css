@@ -156,5 +156,8 @@ p {
 }
 
 
-
+.container-fluid input {
+  width: 100%;
+  clear: both;
+}
   
