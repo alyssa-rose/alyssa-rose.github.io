@@ -87,6 +87,7 @@
             <p style="text-align:right"> How can NASA identify dead ends in its policies? Tackling this question began with a web scrape of NASA's website that contains all policies (NPRs and NPDs). This task required handling multiple formats, including standard html pages, pages that hosted pdfs of the policies, and pages that had links to the seperate sections of the policy documents. This data was then cleaned via stop word removal, stemmatization, and sentence and word tokenization. After, all instances of references to other NPDs/NPRs had to be discovered via regex on the tokenized word lists to find NPR/NPD and the associated policy number. This was used to make a directed graph where if policy A references policy B, then A --> B. Pyvis was then utilized to visualize this graph.</p>
             </div>
             <div class="col-md-4 text-center" style="background:black">
+               <br></br>
              <div class="embed-responsive embed-responsive-16by9">
                <video controls autoplay>
                   <source src="/images/NPD_NPR_viz.mp4" type=video/mp4>
