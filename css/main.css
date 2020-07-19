@@ -87,6 +87,21 @@ section h1 {
   white-space: nowrap;
 }
 
+section h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font : normal 300 64px/1 font-family: 'Montserrat';
+  text-align: center;
+  white-space: nowrap;
+  
+}
+
+
 #section01 { background: url(/images/Waterfall.jpg) center center / cover no-repeat;
   width: 100%
 }
