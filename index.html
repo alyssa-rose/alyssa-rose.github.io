@@ -73,7 +73,7 @@
             <div class="col-md-4 text-center" style="background:black">
                <img src="/images/bigram-analysis-min.JPG" class="img-responsive">
             </div>
-            <div class="col-md-8 text-center">
+            <div class="col-md-6 text-center">
                <h3 style="color:#ADB2B3">Bigram Topic Modeling (NASA)</h3>
                <br></br>
                <p style="text-align:left"> This project sought to answer the question of "how much does NASA spend on 'data activities'" in the 2019 fiscal year. I attempted to answer this question in 3 steps: first collecting data on project grants that were awarded, determining which project descriptions fell into the category 'data activity', and then summed up the current and total action obligation amounts to get a dollar total.</p>
@@ -89,7 +89,7 @@
          </div>
 
          <div class="row justify-content-center align-items-center" style="overflow:hidden">
-            <div class="col-md-8 text-center">
+            <div class="col-md-6 text-center">
                <h3 style="color:#ADB2B3">Knowledge Graph + NLP (NASA)</h3>
                <br></br>
             <p style="text-align:left"> How can NASA identify dead ends in its policies? Tackling this question began with a web scrape of NASA's website that contains all policies (NPRs and NPDs). This task required handling multiple formats, including standard html pages, pages that hosted pdfs of the policies, and pages that had links to the seperate sections of the policy documents. This data was then cleaned via stop word removal, stemmatization, and sentence and word tokenization. After, all instances of references to other NPDs/NPRs had to be discovered via regex on the tokenized word lists to find NPR/NPD and the associated policy number. This was used to make a directed graph where if policy A references policy B, then A --> B. Pyvis was then utilized to visualize this graph.</p>
