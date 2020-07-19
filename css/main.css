@@ -88,12 +88,11 @@ section h1 {
 }
 
 section h3 {
-  position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   z-index: 2;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -80%);
+  transform: translate(-50%, -80%);
   color: #fff;
   font : normal 300 64px/1 font-family: 'Montserrat';
   text-align: center;
