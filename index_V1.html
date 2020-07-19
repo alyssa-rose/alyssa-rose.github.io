@@ -1,200 +1,139 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
 <head>
-	<title>Alyssa Rose, Data Scientist Enthusiast</title>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="referrer" content="origin"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"> 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <!--link rel="stylesheet" type="text/css" href="/css/normalize.min.css"-->
-  <link rel="stylesheet" type="text/css" href="/css/main.css">
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+   <link href="/css/main.css" rel="stylesheet">
+   <script src="/js/main_script.js"></script>
+   <title> "Alyssa Rose, Data Science Student" </title>
 </head>
 <body>
-  <div id="sidebar">
-    <div id="sidebar__portrait">
-      <img src="images/IMG9523631.jpg" alt="Lorem Ipsum"/>
-    </div>
-    <p class="name">ALYSSA ROSE</p>
-    <p class="jobrole">DATA SCIENCE STUDENT</p>
-    
-<a href="#about">
-    <div class="button">
-	    <p>ABOUT</p>
-   </div>
-</a>
-    <a href="#contact">
-      <div class="button">
-        <p>CONTACT</p>
+   <!-- Navigation Menu -->
+   <div class="dropdown">
+      <div class="container-fluid" onclick="navBar(this)">
+         <div class="bar1"></div>
+         <div class="bar2"></div>
+         <div class="bar3"></div>
       </div>
-    </a>
+      <div id="myDropdown" class="dropdown-content">
+         <a href="#About">About</a>
+         <a href="#Projects">Projects</a>
+         <!--<a href="#Viz">Project Visuals</a>-->
+         <a href="#Sourcerer">Sourcerer Page</a>
+         <a href="#Contact">Contact</a>
+      </div>
+   </div>
+   <!-- Pic and Name -->
+   <section id="section01" class="demo">
+      <div class="container-fluid">
+         <h1 style="font-size:475%"> A L Y S S A <br></br> R O S E</h1>
+      </div>
+      <a href="#About"><span></span></a>
+   </section>
+   <!-- About -->
+   <div class="container-fluid" style="background:black">
+      <a name="About"></a>
+      <div class="row justify-content-center">
+         <div class="col-lg-2">
+         </div>
+         <div class="col-lg-8 offset-lg-6 text-center" style="background:linear-gradient(to bottom, black, grey, black)">
+            <h3 style="color:#ADB2B3"> A B O U T </h3>
+            <br></br>
+            <br></br>
+            <p>Hi! Thanks for visiting my page
+               <br></br>I am currently a student at Tufts University in the School of Engineering studying Data Science and Mathematics. When not in class, I am active in Students for Exploration and Development of Space creating software for a CubeSat that will be launched from the International Space Station. Additionally, I am also on the Programming and UI team for a small radio telescope project which will be used by the Tufts' Astrophysics Department for future research and educational purposes.
+               <br></br> I am also the Co-Founder of the Interdisciplinary Data Intensive Applications Society (IDIAS, prounounced 'ideas') which is a project based data science education group. <a href="https://www.facebook.com/TuftsIDIAS/" target="_blank" style="color:#9DABAB">Here</a> is the Facebook page for the group!.
+               <br></br> Feel free to browse my portfolio and some of my personal projects!
+               <br></br> <h2><a href="https://drive.google.com/file/d/10FCQVkjR11zgus9NzMugyv_VmO7Fn4JA/view?usp=sharing" target="_blank" style="color:#01756A;">R E S U M E</a></h2>
+            </p>
+         </div>
+      </div>
+   </div>
+   <div class="container-fluid" style="background:black">
+      <div class="row justify-content-center">
+         <div class="col-lg-2" style="background:black">
+            <br></br><br></br>
+         </div>
+      </div>
+   </div>
+   <a name = "Projects"></a>
+   <div class="container-fluid" style="background:black">
+      <div class="row justify-content-center">
+         <div class="col-lg-12 offset-lg-6 text-center">
+            <h3 style="color:#ADB2B3">P R O J E C T S</h3>
+            <br></br><br></br>
+         </div>
+      </div>
 
-<a href="https://drive.google.com/file/d/10FCQVkjR11zgus9NzMugyv_VmO7Fn4JA/view?usp=sharing" target="_blank">
-   <div class="button">
-	<p>RESUME</p>
-  </div>
-</a>
-	  <div id="sidebar__social-icons"><!--
-      --><div class="sidebar__social-icon">
-        <a href = "https://github.com/alyssa-rose" target="_blank"> <img src="images/github.png" alt="github"/></a>
-      </div><!--
-      --><div class="sidebar__social-icon">
-        <a href="https://www.linkedin.com/in/alyssa-rose/" target="_blank"> <img src="images/linkedin.png" alt="linkedin"></a>
-      </div><!--
-    --></div>
-  </div>
-<!--h1 style="margin-left:60%; color:white;font-family:'Raleway' , sans-serif, Helvetica, Verdana;">PORTFOLIO</h1-->
-  <ul id="grid" class="clr">
-            <li>
-               <a href="#item1">
-                  <div class="hexagon">
-                     <img src="images/Poverty.JPG" alt="Lorem Ipsum">
-                     <div class="overlay"></div>
-                  </div>
-               </a>
-            </li>
-            <li>
-               <a href="#item2">
-                  <div class="hexagon">
-                     <img src="images/2.JPG" alt="Lorem Ipsum">
-                     <div class="overlay"></div>
-                  </div>
-               </a>
-            </li>
-            <li>
-               <a href="#item3">
-                  <div class="hexagon">
-                     <img src="images/13.JPG" alt="Lorem Ipsum">
-                     <div class="overlay"></div>
-                  </div>
-               </a>
-            </li>
-            <li>
-               <a href="#item4">
-                  <div class="hexagon">
-                     <img src="images/4.png" alt="Lorem Ipsum">
-                     <div class="overlay"></div>
-                  </div>
-               </a>
-            </li>
-            <li>
-               <a href="#item5">
-                  <div class="hexagon">
-                     <img src="images/5.png" alt="Lorem Ipsum">
-                     <div class="overlay"></div>
-                  </div>
-               </a>
-            </li>
-            <li>
-               <a href="#item6">
-                  <div class="hexagon">
-                     <img src="images/6.JPG" alt="Lorem Ipsum">
-                     <div class="overlay"></div>
-                  </div>
-               </a>
-            </li>
-            <li>
-               <a href="#item7">
-                  <div class="hexagon">
-                     <img src="images/7.JPG" alt="Lorem Ipsum">
-                     <div class="overlay"></div>
-                  </div>
-               </a>
-            </li>
-            <li>
-               <a href="#item8">
-                  <div class="hexagon">
-                     <img src="images/8.JPG" alt="Lorem Ipsum">
-                     <div class="overlay"></div>
-                  </div>
-               </a>
-            </li>
-            <li>
-               <a href="#item9">
-                  <div class="hexagon">
-                     <img src="images/9.JPG" alt="Lorem Ipsum">
-                     <div class="overlay"></div>
-                  </div>
-               </a>
-            </li>
-            <li>
-               <a href="#item10">
-                  <div class="hexagon">
-                     <img src="images/10.JPG" alt="Lorem Ipsum">
-                     <div class="overlay"></div>
-                  </div>
-               </a>
-            </li>
-            <li>
-               <a href="#item11">
-                  <div class="hexagon">
-                     <img src="images/11.JPG" alt="Lorem Ipsum">
-                     <div class="overlay"></div>
-                  </div>
-               </a>
-            </li>
-	  <li>
-               <a href="#item12">
-                  <div class="hexagon">
-                     <img src="images/12.JPG" alt="Lorem Ipsum">
-                     <div class="overlay"></div>
-                  </div>
-               </a>
-            </li>
-	  <li>
-      <!--a href="#item13">
-        <div class="hexagon">
-          <img src="images/13.jpg" alt="Lorem Ipsum"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="#item14">
-        <div class="hexagon">
-          <img src="images/14.jpg" alt="Lorem Ipsum"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li>
-    <li>
-      <a href="#item15">
-        <div class="hexagon">
-          <img src="images/15.jpg" alt="Lorem Ipsum"/>
-          <div class="overlay"></div>
-        </div>
-      </a>
-    </li-->
-   </ul>
-         <div id="item1">
-            <div class="left">
-               <a href="#">
-                  <div class="button">
-                     <p>CLOSE &gt;&gt;</p>
-                  </div>
-               </a>
-               <h2>Infrastructure funding for struggling communities in the USA</h2>
-               <p style="font-size:20px">
-                  Personal project that sought to understand where federal infrastructure funding is the most impactful. 
-                  The project analyzed the counties in the USA that have the highest levels of child poverty rates and also reside in states 
-                  with the worst infrastructure scores as determined by the ASCE Infrastructure Report Card. Data cleaning and processing was done
-                  via Python and data visualization was made possible with Tableau. The data processing code can be found <a href="https://github.com/alyssa-rose/Grant-Funding-/blob/master/Grant_Funding.py">on my GitHub</a>
-               </p>
+
+         <div class="row justify-content-center align-items-center" style="overflow:hidden">
+            <div class="col-md-4 text-center" style="background:black">
+               <img src="/images/bigram-analysis-min.JPG" class="img-responsive">
             </div>
-            <div class="right">
-               <img src="images/Poverty.JPG" alt="Lorem Ipsum">
+            <div class="col-md-8 text-center">
+               <h3 style="color:#ADB2B3">Bigram Topic Modeling (NASA)</h3>
+               <br></br>
+               <p style="text-align:left"> This project sought to answer the question of "how much does NASA spend on 'data activities'" in the 2019 fiscal year. I attempted to answer this question in 3 steps: first collecting data on project grants that were awarded, determining which project descriptions fell into the category 'data activity', and then summed up the current and total action obligation amounts to get a dollar total.</p>
+               <br></br>
             </div>
          </div>
-         <div id="item2">
-            <div class="left">
-               <a href="#">
-                  <div class="button">
-                     <p>CLOSE &gt;&gt;</p>
-                  </div>
-               </a>
-               <h2>Predicting Cervical Cancer</h2>
-               <p style="font-size:20px">
-                  An academic project that sought to answer "Can we diagnose cervical cancer earlier?". The project
+
+
+         <div class="row justify-content-center align-items-center" style="overflow:hidden">
+            <div class="col-md-12 text-center">
+               <br></br>
+            </div>
+         </div>
+
+         <div class="row justify-content-center align-items-center" style="overflow:hidden">
+            <div class="col-md-8 text-center">
+               <h3 style="color:#ADB2B3">Knowledge Graph + NLP (NASA)</h3>
+               <br></br>
+            <p style="text-align:right"> How can NASA identify dead ends in its policies? Tackling this question began with a web scrape of NASA's website that contains all policies (NPRs and NPDs). This task required handling multiple formats, including standard html pages, pages that hosted pdfs of the policies, and pages that had links to the seperate sections of the policy documents. This data was then cleaned via stop word removal, stemmatization, and sentence and word tokenization. After, all instances of references to other NPDs/NPRs had to be discovered via regex on the tokenized word lists to find NPR/NPD and the associated policy number. This was used to make a directed graph where if policy A references policy B, then A --> B. Pyvis was then utilized to visualize this graph.</p>
+            </div>
+            <div class="col-md-4 text-center" style="background:black">
+               <br></br>
+             <div class="embed-responsive embed-responsive-16by9">
+               <video controls autoplay>
+                  <source src="/images/NPD_NPR_viz.mp4" type=video/mp4>
+               </video>
+             </div>
+            </div>
+         </div>
+
+         <div class="row justify-content-center align-items-center" style="overflow:hidden">
+            <div class="col-md-12 text-center">
+               <br></br>
+            </div>
+         </div>
+
+
+         <div class="row justify-content-center align-items-center" style="overflow:hidden">
+            <div class="col-md-4 text-center" style="background:black">
+               <img src="/images/net.JPG" class="img-responsive">
+            </div>
+            <div class="col-md-8 text-center">
+               <h3 style="color:#ADB2B3">Machine Learning Templates (Personal)</h3><br></br>
+            <p style="text-align:left">A personal project to create templates for machine learning concepts such as artificial neural networks, convolutional neural networks, k-means clustering, hierarchial clustering, natural language processing, Thompson sampling, Random Forest regression and classification and more. 
+                  <br><br>
+                  The <a href="https://github.com/alyssa-rose/Machine-Learning-R" target="_blank" style="color:#9DABAB"> R templates</a> and the <a href="https://github.com/alyssa-rose/Machine-Learning-Python" target="_blank" style="color:#9DABAB">Python templates</a> are available on my GitHub.</p>
+            </div>
+         </div>
+
+         <div class="row justify-content-center align-items-center" style="overflow:hidden">
+            <div class="col-md-12 text-center">
+               <br></br>
+            </div>
+         </div>
+
+
+
+
+         <div class="row justify-content-center align-items-center" style="overflow:hidden">
+            <div class="col-md-8 text-center">
+               <h3 style="color:#ADB2B3">Predicting Cervical Cancer (Academic)</h3><br></br>
+            <p style="text-align:right">An academic project that sought to answer "Can we diagnose cervical cancer earlier?". The project
                   analyzed healthcare data from hundreds of women in order to understand the relationship between the 
                   27 recorded attributes and whether or not the woman tested positive for cervical cancer. Attributes included
                   fields regarding age, smoking habits, number of sexual partners and use of oral contraceptives and diagnoses were
@@ -202,252 +141,147 @@
                   <br><br>
                   The data was analyzed using techniques such as Singular Value Decompisition, Principal Component Analysis,
                   Attribute Relevancy, Support Vector Machines and Artificial Neural Networks. The code (Python and MATLAB) can 
-                  be found <a href="https://github.com/alyssa-rose/Cervical-Cancer-Analysis">on my GitHub</a> and the final paper
-                  discussing the results and impact can be found <a href="https://drive.google.com/file/d/1pVQnFLAQtbFUBalW_boQqgovmGz-N-N1/view?usp=sharing">here</a>.
-               </p>
+                  be found <a href="https://github.com/alyssa-rose/Cervical-Cancer-Analysis" target="_blank" style="color:#9DABAB">on my GitHub</a> and the final paper
+                  discussing the results and impact can be found <a href="https://drive.google.com/file/d/1pVQnFLAQtbFUBalW_boQqgovmGz-N-N1/view?usp=sharing" target="_blank" style="color:#9DABAB">here</a>.</p>
+            <br></br>
             </div>
-            <div class="right">
-               <img src="images/2.JPG" alt="Lorem Ipsum">
-            </div>
-         </div>
-         <div id="item3">
-            <div class="left">
-               <a href="#">
-                  <div class="button">
-                     <p>CLOSE &gt;&gt;</p>
-                  </div>
-               </a>
-               <h2>Dense Urban Environment Team (DUET)</h2>
-               <p style="font-size:20px">
-                  A work project done in conjuction with The Department of Defense, Army Futures Command (White Sands Missile Range), Military Operations Research Society (MORS) and my teamates Tom Carpino (Columbia University)
-                  and Natalie Wennigman (Tel Aviv University) via the Virtual Student Federal Service Program. The paper is to be published by July 2019 via the MORS journal. The project seeks to
-                  understand the nodes (treating the city as a system) within the water systems of Asian megacities like Tokyo, Karachi, Dhaka, and Beijing in order
-                  to make the cities more resilient as they rapidly grow.
-               </p>
-            </div>
-            <div class="right">
-               <img src="images/13.JPG" alt="Lorem Ipsum">
+            <div class="col-md-4 text-center" style="background:black;overflow:hidden">
+               <br></br>
+               <img src="/images/cervical_paper.JPG" class="img-responsive">
             </div>
          </div>
-         <div id="item4">
-            <div class="left">
-               <a href="#">
-                  <div class="button">
-                     <p>CLOSE &gt;&gt;</p>
-                  </div>
-               </a>
-               <h2>Recommendation system for Vistaprint</h2>
-               <p style="font-size:20px">
-                  A project done in correspondance with the Data Science Vertical of Tufts' TAMID chapter; the project sought to analyze over 8 million data points on Vistaprints user data in order to build a recommendation system for new users. The project was done in Python and implemented use of Random Forest Regression and Principal Component Analysis.
-                  <br><br>
-                  Due to a non-disclosure agreement, links to the project are unavailable.
-               </p>
-            </div>
-            <div class="right">
-               <img src="images/4.png" alt="Lorem Ipsum">
-            </div>
-         </div>
-         <div id="item5">
-            <div class="left">
-               <a href="#">
-                  <div class="button">
-                     <p>CLOSE &gt;&gt;</p>
-                  </div>
-               </a>
-               <h2>Machine Learning Templates in R and Python</h2>
-               <p style="font-size:20px">
-                  A personal project to create templates for machine learning concepts such as artificial neural networks, convolutional neural networks, k-means clustering, hierarchial clustering, natural language processing, Thompson sampling, Random Forest regression and classification and more. 
-                  <br><br>
-                  The <a href="https://github.com/alyssa-rose/Machine-Learning-R" target="_blank"> R templates</a> and the <a href="https://github.com/alyssa-rose/Machine-Learning-Python" target="_blank">Python templates</a> are available on my GitHub.
-               </p>
-            </div>
-            <div class="right">
-               <img src="images/5.png" alt="Lorem Ipsum">
-            </div>
-         </div>
-         <div id="item6">
-            <div class="left">
-               <a href="#">
-                  <div class="button">
-                     <p>CLOSE &gt;&gt;</p>
-                  </div>
-               </a>
-               <h2>Food For Thought</h2>
-               <p style="font-size:20px">
-                  A final project for a MATLAB based coding class for engineering students. The project used global food consumption data and a variety of data analysis techniques like k-means clustering, interpolation, poly-fitting and extrapolation to provide a user-friendly GUI that would allow for predicting the expected food needs (in tons) by region, country, food type and desired years.
-               </p>
-            </div>
-            <div class="right">
-               <img src="images/6.JPG" alt="Lorem Ipsum">
-            </div>
-         </div>
-         <div id="item7">
-            <div class="left">
-               <a href="#">
-                  <div class="button">
-                     <p>CLOSE &gt;&gt;</p>
-                  </div>
-               </a>
-               <h2>Six Degrees of Kevin Bacon</h2>
-               <p style="font-size:20px">
-                  Project that implements the basis of the game "Six degrees of Kevin Bacon". The program uses graphs and breath first search in any order to connect any two actors via their appearances in movies and costars given a movie/actor database. The project was done as an assignment for a data structures class and is written in C++
-               </p>
-            </div>
-            <div class="right">
-               <img src="images/7.JPG" alt="Lorem Ipsum">
-            </div>
-         </div>
-         <div id="item8">
-            <div class="left">
-               <a href="#">
-                  <div class="button">
-                     <p>CLOSE &gt;&gt;</p>
-                  </div>
-               </a>
-               <h2>In the Pursuit of Music</h2>
-               <p style="font-size:20px">
-                  I'm an active member of Tufts' Arab Music Ensemble (aka Tufts' Takht) where I've been able to combine my love of music and Arabic into one. Our last performance, "Tales From Baghdad", encapsulated the Iraqi narrative and sound. Additionally you can find me playing the banjo and ukulele in my free time.
-               </p>
-            </div>
-            <div class="right">
-               <img src="images/8.JPG" alt="Lorem Ipsum">
-            </div>
-         </div>
-         <div id="item9">
-            <div class="left">
-               <a href="#">
-                  <div class="button">
-                     <p>CLOSE &gt;&gt;</p>
-                  </div>
-               </a>
-               <h2>Recognition of my work with the Virtual Student Federal Service Program</h2>
-               <p style="font-size:20px">
-                  Recognized by The Secretary of State Michael Pompeo for my work that was done with the Department of Defense, Army Future Commands, and the Military Operations Research Society. I had the opportunity to also collaborate with <a href="http://www.kilcullenstrategic.com/" target="_blank">Dr. David Kilcullen</a> and presented my resiliency model and paper at the Analysis of Urban Warfare conference in Quanitico, VA in April.
-               </p>
-            </div>
-            <div class="right">
-               <img src="images/9.JPG" alt="Lorem Ipsum">
-            </div>
-         </div>
-         <div id="item10">
-            <div class="left">
-               <a href="#">
-                  <div class="button">
-                     <p>CLOSE &gt;&gt;</p>
-                  </div>
-               </a>
-               <h2>Wilderness Conservation and Caving</h2>
-               <p style="font-size:20px">
-                  In 2017, I had the privilege of working alongside the Green Mountain Club of Vermont to rebuild part of the Appalachian Trail (aka the Long Trail or AT) back into the AT's protected corridor. Additionally in 2018, I was able to become a licensed cave lead of the City of Austin's Karst formation in an effort to educate the public on the sensitive environment of Austin's cave system, which is home to a multitude of endangered species and the Austin Blind Salamander.
-               </p>
-            </div>
-            <div class="right">
-               <img src="images/10.JPG" alt="Lorem Ipsum">
-            </div>
-         </div>
-         <div id="item11">
-            <div class="left">
-               <a href="#">
-                  <div class="button">
-                     <p>CLOSE &gt;&gt;</p>
-                  </div>
-               </a>
-               <h2>Data Science Intern at Forrester</h2>
-               <p style="font-size:20px">
-                  Data science intern on the Customer Index Team at Forrester. Responsible for analyzing customer experience data in R in order to provide a comprehensive report on how thoroughly a company is interacting with their customers.<br><br> Research includes areas such as imputation via K Nearest Neighbors, Multivariate Imputation by Chained Equations
-		       , Bayesian PCA and the HMISC library with the purpose of time complexity optimization to handle missing data in a multimillion point data set. Research also includes Natural Language Processing/text embedding and analysis with fastText. This is a 10 week long summer internship based at Forresters Cambridge office.
-               </p>
-            </div>
-            <div class="right">
-               <img src="images/11.JPG" alt="Lorem Ipsum">
-            </div>
-         </div>
-	<div id="item12">
-            <div class="left">
-               <a href="#">
-                  <div class="button">
-                     <p>CLOSE &gt;&gt;</p>
-                  </div>
-               </a>
-               <h2>Research Assistant at Lantagne Labs</h2>
-               <p style="font-size:20px">
-                  Assisted in data collection and analysis for a PhD candidates dissertation in the Lantagne Lab of Environmental Engineering at Tufts University. I read and pulled data from
-		       over 300 research articles on the effects of common disinfectants on common viruses in a multitude of environments. The research was published in Water and can be found <a href="https://www.mdpi.com/2073-4441/10/10/1397/htm">here</a>
-               </p>
-            </div>
-            <div class="right">
-               <img src="images/12.JPG" alt="Lorem Ipsum">
-            </div>
-         </div>
-	<!--div id="item13">
-	  <div class="left">
-	    <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
-	    <h2>ITEM TITLE</h2>
-	    <p>
-	     13
-	   </p>
-	 </div>
-	 <div class="right">
-	  <img src="images/13.jpg" alt="Lorem Ipsum"/>
-	</div>
-	</div>
-	<div id="item14">
-	  <div class="left">
-	    <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
-	    <h2>ITEM TITLE</h2>
-	    <p>
-	     14
-	   </p>
-	 </div>
-	 <div class="right">
-	  <img src="images/14.jpg" alt="Lorem Ipsum"/>
-	</div>
-	</div>
-	<div id="item15">
-	  <div class="left">
-	    <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
-	    <h2>ITEM TITLE</h2>
-	    <p>
-	      15
-	   </p>
-	 </div>
-	 <div class="right">
-	  <img src="images/15.jpg" alt="Lorem Ipsum"/>
-	</div>
-	</div-->
-         
-<div id="contact">
-  <!--a href="#"><div class="button"><p>&lt;&lt; CLOSE</p></div></a-->
-  <form method="POST" action="https://formspree.io/alyssa.s.rose5@gmail.com" id="contactform">
-    <label for="email">Your Email</label><input type="email" name="email" id="email"/>								      
-    <br>
-    <br>
-    <label for="subject">Subject</label><input type="text" name="_subject" id="subject"/>
-    <br>
-    <br>
-    <label for="message">Message</label><textarea name="message" id="message"></textarea>
-    <br>
-    <input type="hidden" name="_next" value="https://alyssa-rose.github.io" />								    
-    <input type="submit" value="Send" class="button"/>
-    
-  </form>
-</div>
 
-<div id="about">
-	<a href="#"><div class="button"><p>&lt;&lt; CLOSE</p></div></a>
-	<form>
-		<label>About</label>
-		<p style="color:#C9ABD2; font-size:20px" >Hey! I'm Alyssa Rose, a rising junior at Tufts University studying Data Science in the School of Engineering in the 
-		Cybersecurity track. Additionally, I'm pursuing minors in Mathematics and Arabic (Modern Standard).<br><br>
-		My focuses also include algorithm design and optimization, along with anything Natural Language Processing related! When not in class, I split my time between 
-			the Society of Women Engineers, working as a Teaching Assistant, running on the Tufts Marathon Team and learning new languages!
-			<br></br>Here you can find a few projects that were done for personal, academic or work reasons. Due to some projects being classified and
-	NDAs, I'm not able to go into full detail on the nature of them.
-	<br><br> Thanks for taking the time to look at some of my work, and feel free to reach me via email or LinkedIn!</p>
-	</form>
+
+
+         <div class="row justify-content-center align-items-center" style="overflow:hidden">
+            <div class="col-md-12 text-center">
+               <br></br>
+            </div>
+         </div>
+
+         <div class="row justify-content-center align-items-center" style="overflow:hidden">
+            <div class="col-md-4 text-center" style="background:black;overflow:hidden;">
+               <img src="/images/Poverty.JPG" class="img-responsive">
+            </div>
+            <div class="col-md-8 text-center">
+               <h3 style="color:#ADB2B3">Infrastructure Funding (Personal)</h3>
+               <br></br>
+            <p style="text-align:left"> Personal project that sought to understand where federal infrastructure funding is the most impactful. 
+                  The project analyzed the counties in the USA that have the highest levels of child poverty rates and also reside in states 
+                  with the worst infrastructure scores as determined by the ASCE Infrastructure Report Card. Data cleaning and processing was done
+                  via Python and data visualization was made possible with Tableau. The data processing code can be found <a href="https://github.com/alyssa-rose/Grant-Funding-/blob/master/Grant_Funding.py" target="_blank" style="color:#9DABAB">on my GitHub</a></p>
+            </div>
+         </div>
+
+         <div class="row justify-content-center align-items-center" style="overflow:hidden">
+            <div class="col-md-12 text-center">
+               <br></br>
+            </div>
+         </div>
+<!--
+<a name="Viz"></a>
+<div class="container-fluid" style="background:black">
+   <div class="row justify-content-center align-items-center">
+      <div class="col-md-3">
+      </div>
+      <div class="col-md-6">
+         <div class="embed-responsive embed-responsive-16by9">
+            <video controls autoplay>
+               <source src="/images/NPD_NPR_viz.mp4" type=video/mp4>
+            </video>
+         </div>
+      </div>
+      <div class="col-md-3">
+      </div>
+   </div>
+   <div class="row justify-content-center align-items-center">
+      <div class="col-md-6">
+         <img src="/images/bigram-analysis.JPG" class="img-responsive">
+      </div>
+      <div class="col-md-6">
+         <img src="/images/Poverty.JPG" class="img-responsive">
+      </div>
+   </div>
+   
+</div>
+-->
+      <a name="Sourcerer"></a>
+      <div class="container-fluid" style="background:black">
+         <div class="row justify-content-center" style="height:50px">
+         </div>
+         <div class="row justify-content-center">
+            <div class="col-md-4 text-center">
+               <a href="https://sourcerer.io/alyssa-rose" target="_blank"><img src="https://sourcerer.io/icons/logo-sharing.svg"height="300px" alt="Sourcerer"></a>
+            </div>
+            <div class="col-md-8 text-center">
+               <h3 style="color:#ADB2B3"> S O U R C E R E R</h3>
+               <br></br>
+               <p>Clicking the icon on the left will take you to my Sourcerer page.</p>
+               <br></br>
+               <p> This page gives a succint view of my GitHub activity, inlcuding my number of commits and languages that I use the most!</p>
+               <br></br>
+               <p> The page also gives an overview of the techniques I have the most experience with, including deep learning, machine learning, and natural language processing (all the fun buzzwords)
+               <p>
+                   </div>
+         </div>
+      </div>
+   </div>
+   <a name="Contact"></a>
+   <div class="container-fluid" style="background:black">
+      <div class="row justify-content-center">
+         <div class="col-lg-12 offset-lg-6 text-center">
+            <br></br>
+            <h3 style="color:#ADB2B3"> C O N T A C T </h3>
+            <br></br><br></br>
+         </div>
+      </div>
+      <div class="row justify-content-center">
+         <div class="col-md-3 text-center">
+            <a href="https://github.com/alyssa-rose" target="_blank">
+               <p> G I T H U B </p>
+            </a>
+         </div>
+         <div class="col-md-6 text-center">
+            <p> E M A I L </p>
+            <br></br>
+            <div class="row justify-content-center">
+               <div class="container-fluid" style="background:black">
+                  <form method="POST" action="https://formspree.io/alyssa.s.rose5@gmail.com" id="contactform">
+                     <div class="form-group">
+                        <label>Your Email</label>
+                        <input type="email" name="email" id="email"/>
+                     </div>
+                     <br>
+                     </br>
+                     <div class="form-group">
+                      <label>Subject</label>
+                      <input type="text" name="_subject" id="subject"/>
+                    </div>
+                     <br>
+                     </br>
+                     <div class="form-group">
+                       <label>Message</label>
+                       <textarea name="message" id="message" rows="5"></textarea>
+                     </div>
+                     <br>
+                     </br>
+                     <input type="submit" value="Send" class="button"/>
+                  </form>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-3 text-center">
+            <a href="https://www.linkedin.com/in/alyssa-rose/" target="_blank">
+                <p> L I N K E D I N </p>
+            </a>
+         </div>
+      </div>
+   </div>
+<div class="container-fluid" style="background:black">
+   <div class="row justify-content-center" style="background:black">
+            <div class="col-md-4 text-center">
+      </div>
+   </div>
 </div>
 </body>
-<footer style="margin-left:60%">
-	Copyright &copy; Alyssa Rose 2019
-</footer>
-</html>
+<footer style="background:black; color:white; text-align:center"> Alyssa Rose &copy; 2020 </footer>
