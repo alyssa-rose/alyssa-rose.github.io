@@ -155,6 +155,12 @@ p {
   font-family: 'Montserrat';
 }
 
+pre {
+  color:white;
+  font-size:475%;
+  font-family: 'Montserrat';
+}
+
 .container-fluid input {
   width: 100%;
   clear: both;
