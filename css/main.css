@@ -88,6 +88,7 @@ section h1 {
 }
 
 section h3 {
+  position: relative;
   top: 80%;
   left: 50%;
   z-index: 2;
